@@ -66,7 +66,7 @@
 		bindings = <
 		&kp Y &kp C &kp L &kp M &kp K                           &kp Z &kp F  &kp U    &mt SEMI COLON   &kp BKSP 
 		&kp I &kp S &kp R &kp T &kp G 			        	        &kp P &kp N &kp E &kp A &kp O
-		&mt LSFT Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &mt UNDER SLASH &mt EXCL PERIOD &kt X
+		&mt LSFT Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &mt UNDER SLASH &mt EXCL PERIOD &kp X
           				&mo 1 &kp SPC  				&kp SPC &mo 2 
 		>;
 		};
