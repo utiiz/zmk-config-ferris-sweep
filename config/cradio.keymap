@@ -73,8 +73,8 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp RA(NUM_0)    &kp RA(NUM_3)    &kp DOLLAR    &kp LS(SQT)		&kp LBKT &kp NUM_1 &kp NON_US_HASH &mt NUM_6 M &kp BKSP 
-		&kp TAB    &kp EQUAL    &kp LS(EQUAL)      &kp LS(COMMA)     &kp NUM_4 		&kp RA(NUM_8) &kp RA(NUM_4) &kp RA(EQUAL) &kp RA(NUM_6)  &kp ENTER 
+		&kp ESC  &kp RA(NUM_0)    &kp RA(NUM_3)    &kp RBKT    &kp LS(SQT)		&kp LBKT &kp NUM_1 &kp NON_US_HASH &mt NUM_6 M &kp BKSP 
+		&kp TAB    &kp EQUAL    &kp LS(EQUAL)      &kp LS(M)     &kp NUM_4 		&kp RA(NUM_8) &kp RA(NUM_4) &kp RA(EQUAL) &kp RA(NUM_6)  &kp ENTER 
 		&kp RA(NUM_2)    &kp RA(E) 	&kp NON_US_BSLH &kp LS(NON_US_BSLH)  &kp NUM_3 	&kp RA(NUM_5) &kp NUM_5 &kp MINUS &kp RA(MINUS)  &to 3
 					    &kp LCTRL   &to 0   				&to 2	&kp RGUI  
 		>;
