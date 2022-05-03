@@ -67,7 +67,7 @@
 		&kp Y &kp C &kp L &kp SEMI &kp K                           &kp W &kp F  &kp U    &mt COMMA PERIOD   &kp BKSP 
 		&kp I &kp S &kp R &kp T &kp G 			        	        &kp P &kp N &kp E &kp Q &kp O
 		&mt LSFT A &kp V &kp Z &kp D &kp J				        &kp B &kp H  &mt N8 LS(PERIOD) &mt SLASH LS(COMMA) &kp X
-          				&sk LCTRL &kp SPC  				&sl 1 &sk LSHIFT
+          				&sk LCTRL &kp SPC  				&to 1 &sk LSHIFT
 		>;
 		};
 
@@ -76,7 +76,7 @@
 		&kp ESC  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
 		&kp TAB    &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH 		&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp ENTER 
 		&kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2 	&kp MINUS &kp GRAVE &kp LBKT &kp RBKT  &kp DEL 
-					    &sl 0  &kp LGUI  					&kp RGUI &mo 2 
+					    &kp LCTRL   &to 0   				&to 2	&kp RGUI  
 		>;
 		};
 		
@@ -85,7 +85,7 @@
 		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
 		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
 		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
-					  &sl 0 &kp LCTL  				&kp SPC  &mo 2 
+					  &kp LCTL   &to 0  				&kp SPC  &mo 2 
 		>;
 		};	
 		
