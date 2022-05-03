@@ -64,9 +64,9 @@
                 
        		default_layer {
 		bindings = <
-		&kp Y &kp C &kp L &kp M &kp K                           &kp Z &kp F  &kp U    &mt SEMI COLON   &kp BKSP 
+		&kp Y &kp C &kp L &kp SEMI &kp K                           &kp Z &kp F  &kp U    &mt COMMA PERIOD   &kp BKSP 
 		&kp I &kp S &kp R &kp T &kp G 			        	        &kp P &kp N &kp E &kp A &kp O
-		&mt LSFT Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &mt UNDER SLASH &mt EXCL PERIOD &kp X
+		&mt LSFT Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &mt N8 LS(COLON) &mt SLASH LS(SEMI) &kp X
           				&mo 1 &kp SPC  				&kp SPC &mo 2 
 		>;
 		};
