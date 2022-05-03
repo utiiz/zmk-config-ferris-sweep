@@ -82,19 +82,19 @@
 		
 		right_layer {
 		bindings = <
-		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
-		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
-		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
-					  &kp LCTL   &to 0  				&kp SPC  &mo 2 
+		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp LS(NUM_7) &kp LS(NUM_8) &kp LS(NUM_9) &kp BKSP 
+		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp LS(NUM_4)  &kp LS(NUM_5)  &kp LS(NUM_6)   &kp ENTER 
+		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LS(NUM_1) &kp LS(NUM_2) &kp LS(NUM_3)  &to 3
+					  &kp LCTRL   &to 0  				&kp SPC  &kp LS(NUM_0) 
 		>;
 		};	
 		
 		tri_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
-		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
+		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &kp BKSP
+		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &sl 0 &trans  					&trans &trans 
+					 &kp LCTRL &to 0  					&trans &trans 
 		>;
 		};	
         
