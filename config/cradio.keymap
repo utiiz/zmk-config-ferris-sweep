@@ -16,7 +16,7 @@
 
 / { 
 
-    combos {
+/*    combos {
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
@@ -57,7 +57,7 @@
         
 
         
-    };
+    };*/
 
         keymap {
                 compatible = "zmk,keymap";
