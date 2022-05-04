@@ -85,7 +85,7 @@
 		&kp BANG  &bt BT_SEL 0 &bt BT_SEL 1  &kp DLLR  &kp PRCT    			&kp CRRT  &kp LS(NUM_7) &kp LS(NUM_8) &kp LS(NUM_9) &kp BKSP 
 		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp LS(NUM_4)  &kp LS(NUM_5)  &kp LS(NUM_6)   &kp ENTER 
 		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LS(NUM_1) &kp LS(NUM_2) &kp LS(NUM_3)  &to 3
-					  &kp LCTRL   &to 0  				&kp SPC  &kp LS(NUM_0) 
+					  &kp LCTRL   &to 0  				&to 1  &kp LS(NUM_0) 
 		>;
 		};	
 		
@@ -94,7 +94,7 @@
 		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &kp BKSP
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &kp LCTRL &to 0  					&trans &trans 
+					 &kp LCTRL &to 0  					&to 1  &trans 
 		>;
 		};	
         
