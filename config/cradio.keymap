@@ -67,7 +67,7 @@
 		&kp Y &kp C &kp L &kp SEMI &kp K                           &kp W &kp F  &kp U    &mt COMMA PERIOD   &kp BKSP 
 		&kp I &kp S &kp R &kp T &kp G 			        	        &kp P &kp N &kp E &kp Q &kp O
 		&mt LSFT A &kp V &kp Z &kp D &kp J				        &kp B &kp H  &mt N8 LS(PERIOD) &mt SLASH LS(COMMA) &kp X
-          				&sk LCTRL &kp SPC  				&to 1 &sk LSHIFT
+          				&sk LCTRL &mt LGUI SPC  				&to 1 &sk LSHIFT
 		>;
 		};
 
@@ -83,7 +83,7 @@
 		right_layer {
 		bindings = <
 		&kp BANG  &bt BT_SEL 0 &bt BT_SEL 1  &kp DLLR  &kp PRCT    			&kp CRRT  &kp LS(NUM_7) &kp LS(NUM_8) &kp LS(NUM_9) &kp BKSP 
-		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp LS(NUM_4)  &kp LS(NUM_5)  &kp LS(NUM_6)   &kp ENTER 
+		&kp NUM_0  &kp NUM_9  &kp NUM_2  &kp NUM_7  &kp SCLN 			&kp MINUS &kp LS(NUM_4)  &kp LS(NUM_5)  &kp LS(NUM_6)   &kp ENTER 
 		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LS(NUM_1) &kp LS(NUM_2) &kp LS(NUM_3)  &to 3
 					  &kp LCTRL   &to 0  				&to 1  &kp LS(NUM_0) 
 		>;
