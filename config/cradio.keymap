@@ -91,7 +91,7 @@
 		
 		tri_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &kp BKSP
+		&kp DELETE  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &kp BKSP
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&kp RA(NUM_7)  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &kp LALT &to 0  					&to 1  &trans 
