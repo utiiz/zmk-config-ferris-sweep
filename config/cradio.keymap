@@ -84,7 +84,7 @@
 		bindings = <
 		&kp BANG  &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &kp PRCT    			&kp CRRT  &kp LS(NUM_7) &kp LS(NUM_8) &kp LS(NUM_9) &kp BKSP 
 		&kp NUM_9  &kp NUM_0  &kp NUM_7  &kp NUM_2  &kp SCLN 			&kp MINUS &kp LS(NUM_4)  &kp LS(NUM_5)  &kp LS(NUM_6)   &kp ENTER 
-		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LS(NUM_1) &kp LS(NUM_2) &kp LS(NUM_3)  &to 3
+		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp LS(COMMA) &kp LS(NUM_1) &kp LS(NUM_2) &kp LS(NUM_3)  &to 3
 					  &kp LCTRL   &to 0  				&to 1  &kp LS(NUM_0) 
 		>;
 		};	
